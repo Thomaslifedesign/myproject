@@ -1,0 +1,134 @@
+Bootcamp
+documentation we use confluence...  jira
+
+ticket first b4 anywork. even if boss comes to you to do a job. he or she must create ticket.
+
+In Jira, a Sprint is a time-boxed iteration of work, typically lasting between 1 to 4 weeks, during which a development team completes a set amount of work. Sprints help teams plan their work, track progress, and respond to changing requirements.
+
+Planning: Before a Sprint begins, the team selects a set of tasks or user stories from the product backlog to work on during the Sprint. These tasks are then moved to the Sprint backlog.
+
+Duration: Sprints have a fixed duration, which is agreed upon by the team. During this time, the team focuses on completing the tasks they committed to at the beginning of the Sprint.
+
+Daily Stand-ups: The team holds daily stand-up meetings to discuss progress, challenges, and plans for the day. This helps in keeping everyone on the same page and addressing issues promptly.
+
+always test code b4 using TEST CODE B4 USING
+
+agile/scrum
+how toc reate tickets/issues/types/userstoreis/story point.
+2poin an hour 3 point more
+scrub bard/how to move tckets on the board
+epics
+acceptance criteria/AC
+SPRINT PLANNING MEETING/ retro meeting/workload
+reporter.
+
+Test code b4 pull request
+
+helm ls, helm repo ls, helm create springapp to create customer application.. on helm company uses variable.   helm upgrade app springapp
+
+In Terraform, remote state refers to storing the state file, which contains information about the resources Terraform manages, in a remote location. The state file is crucial for Terraform to understand the current state of the infrastructure so that it can plan and apply changes effectively. Storing the state remotely has several advantages, including collaboration, versioning, and security.
+
+Remote backends in Terraform are configurations that define where and how the Terraform state is stored remotely. Remote backends can be various services or systems that support remote storage, such as Amazon S3, Azure Blob Storage, Google Cloud Storage, or HashiCorp's Terraform Cloud or Terraform Enterprise. By configuring a remote backend, you can enable Terraform to store the state file in a centralized, secure, and scalable manner
+
+
+
+A Service Mesh is a configurable, low-latency infrastructure layer designed to handle communication between the microservices of an application. It often involves the use of proxy servers to manage and control the flow of traffic between services, providing features such as service discovery, load balancing, encryption, authentication and authorization, and monitoring and logging. In the context of Kubernetes, a popular platform for container orchestration, Service Mesh solutions are used to enhance the communication between microservices deployed in Kubernetes clusters.
+
+
+In Kubernetes, "EP" typically refers to "Endpoint." Endpoints in Kubernetes are a way to expose a set of ports of a service. They are used to connect services with other services or pods in the cluster.
+
+labels and tags important
+
+auto scaller version needs to match the kubenetes cluster
+mkdir data ; cd data
+root@ip-172-31-20-111:~/data# ls
+root@ip-172-31-20-111:~/data# pwd
+/root/data
+
+:se nu
+
+image pullback.. cant find image or tag
+
+how to drain a node..  kubectl drain ip -172-89-0980 --      kubectl uncordon ip-172-090-0934
+
+
+
+kubernest not working check sudo and use
+
+carry image from docker hub to kuberntest
+
+replicationcontroller... pod.... container
+
+you can sechedule pod on specific node. jst copy the ip
+
+pod can talk to themselver via svc .. no svc no talking
+3
+
+container are list\
+
+easy to way to run a container --   kubectl run acada --image acadalearning/java-web-app
+
+
+you cant scale pod unless you use deployment .. satusset etc
+
+I solve this issue with sudo chmod 0644 /etc/kubernetes/admin.conf and export KUBECONFIG=/etc/kubernetes/admin.conf
+
+
+Ansible to deploy to different app server for high availability
+
+
+Are you looking for something casual, dating or in-between?
+
+skilss are transferable... Im fast learner and I can deploy myself in any enviroment
+
+each container have ip address unless they are in the same network
+
+build to release nexus
+
+GITHUB/GITHUBACTION/ git version control systems
+
+-local.vc  store local
+- centralised vc for veryone
+-distributed vcs git and github
+
+b) main states of a file - modified, staged or committed. git add will add your file. for git to track file will use git add.
+- git add = tracks files
+c) git configurations:
+-/etc/gitconfig file -- system = system wide
+-~/.gitconfig file --global = specific to a user
+-.git/config = specific to a directory
+
+git config for the command always start with gitconfig
+git config --global user.name "Mark"-  global user.email
+
+check your configuration is gitconfig --list
+
+d) git basics:
+-Repo:
+ - git init  /create .git directory / local repository -  git add remote origin <url>
+ - git clone /import an existing git repo to your local env.
+ - add /commit:
+-editing doesnt make a file tracked / only until you add it to git index
+- git commit -m "message"
+- .gitignore
+ - you can exclude some files and directories from being tracked by git.
+  .gitignore  - needs to be tracked by git
+
+  ---------------------------------------
+  ------------------------------------------------------
+  git status --ignored
+  - git logs -view commits
+   - git log -p -3 to see last 3 commit
+
+   git workflow:
+    -git init
+    -git branch -M main
+    -git remote add origin <url>
+    ===============================
+  - git.checkout.-b.dev  CDLD-0112 TICKET NAME TO KNOW... new project use this dont write code on main. write code on new branch
+  - git add .  - git add *  -git add -A
+  - git commit 
+  - git.push -u 
+  - create a PR - CDLD-0112 to be merged to Main. = team members /collaborators / code owners. 
+
+
